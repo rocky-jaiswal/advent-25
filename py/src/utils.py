@@ -6,6 +6,9 @@ def read_data_file(filename: str, delimiter: str = "\n") -> list[str]:
     data_dir = Path(__file__).parent.parent / "data"
     file_path = data_dir / filename
 
+    content = ""
+
     with open(file_path, "r") as f:
         content = f.read()
-        return content.split(delimiter)
+
+    return content.split(delimiter)
