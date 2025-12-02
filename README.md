@@ -1,3 +1,3 @@
-# Advent of Code 25
+# Advent of Code 2025
 
 - Solutions in Kotlin and Python
