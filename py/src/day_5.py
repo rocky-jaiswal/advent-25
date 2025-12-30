@@ -22,7 +22,7 @@ IDS_2 = read_data_file("day5_2.txt", "\n")
 
 class Day5:
     def __init__(self):
-        print("Hello from Day 4 ...")
+        print("Hello from Day 5 ...")
 
     def _in_any_range(self, id, ranges):
         for range in ranges:
